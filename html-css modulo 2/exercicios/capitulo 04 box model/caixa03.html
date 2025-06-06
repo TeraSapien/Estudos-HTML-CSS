@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: slategrey;
+            padding: 3px;
+
+            /* inset = sombra interna */
+            /* x-offset | y-offset | blur | spread | color */
+            box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.486);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightblue;
+            padding: 5px 10px;
+            margin: 5px;
+
+            border-radius: 10px;
+        }
+
+        article > aside {
+            font-style: italic;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            margin: 25px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Notícias Esportes Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h1>Título</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut temporibus repellendus quia iste quod dicta, ullam impedit doloribus minus, neque doloremque voluptates incidunt accusantium? Hic ipsum maiores ullam illo.</p>
+                <aside> Artigo escrito por João da Silva</aside>
+            </article>
+            <article>
+                <h1>Título 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut temporibus repellendus quia iste quod dicta, ullam impedit doloribus minus, neque doloremque voluptates incidunt accusantium? Hic ipsum maiores ullam illo.</p>
+                <aside> Artigo escrito por Maria dos Santos</aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por AetherForge</p>
+    </footer>
+
+    <div id="bola"></div>
+
+    <p>
+        <a href="caixa01.html">Caixa 01</a>
+        <a href="caixa02.html">Caixa 02</a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*  
+    SELETORES PERSONALIZADOS
+    # = id (só pode um elemento)
+    . = class (pode vários elementos)
+    : = pseudo-class
+    :: = pseudo element
+    > children
+*/
+
+body {
+    background-color: rgb(174, 196, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(31, 65, 31);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(59, 131, 59);
+}
+
+.basico {
+    color: rgb(59, 131, 59);
+}
+
+.interm {
+    color: rgb(126, 131, 59);
+}
+
+.avancado {
+    color: rgb(131, 59, 59);
+}
+
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
